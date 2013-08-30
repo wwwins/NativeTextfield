@@ -1,0 +1,13 @@
+{
+  "name": "Extension",
+  "url": "",
+  "license": "MIT",
+  "tags": [],
+  "description": "openfl extension - native textfield on ios",
+  "version": "1.0.0",
+  "releasenote": "",
+  "contributors": ["flashisobar"],
+  "dependencies": {
+
+  }
+}

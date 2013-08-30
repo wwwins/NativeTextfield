@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Nativetextfield" package="com.flashisobar.nativetextfield" version="1.0.0" company="flashisobar" />
+	<app main="Main" path="Export" file="Nativetextfield" />
+	<window orientation="portrait" if="ios" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="Extension" />
+	
+	<assets path="Assets" rename="assets" exclude="openfl.svg" />
+	<icon path="Assets/openfl.svg" />
+	
+</project>
