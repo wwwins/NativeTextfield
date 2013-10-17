@@ -3,7 +3,7 @@
 	
 	<meta title="Nativetextfield" package="com.flashisobar.nativetextfield" version="1.0.0" company="flashisobar" />
 	<app main="Main" path="Export" file="Nativetextfield" />
-	<window orientation="portrait" if="ios" />
+	<window orientation="portrait" background="0xE5EDB6" if="ios" />
 	
 	<source path="Source" />
 	
@@ -11,6 +11,9 @@
 	<haxelib name="Extension" />
 	
 	<assets path="Assets" rename="assets" exclude="openfl.svg" />
-	<icon path="Assets/openfl.svg" />
+	<icon path="Assets/Icon.png" size="57" />
+	<icon path="Assets/Icon-72.png" size="72" />
+	<icon path="Assets/Icon@2x.png" size="114" />
+	<icon path="Assets/Icon-72@2x.png" size="144" />
 	
 </project>
