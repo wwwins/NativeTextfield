@@ -1,5 +1,6 @@
 package;
 
+import flash.Lib;
 import flash.display.Sprite;
 import flash.text.TextField;
 import flash.text.TextFormat;
@@ -44,6 +45,7 @@ class Main extends Sprite {
 	private function show(e:MouseEvent):Void {
 
 		trace("show:"+Extension.sampleMethod(777));
+		Lib.pause();
 		Extension.initTextfield("お元気ですか 你好 hello");
 
 	}
